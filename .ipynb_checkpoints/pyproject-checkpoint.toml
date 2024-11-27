@@ -1,0 +1,19 @@
+[project]
+name = "november"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "eindex-callum",
+    "einops>=0.8.0",
+    "jaxtyping>=0.2.34",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.9.2",
+    "scipy>=1.14.1",
+    "torch>=2.5.1",
+    "transformer-lens>=2.9.0",
+]
+
+[tool.uv.sources]
+eindex-callum = { git = "https://github.com/callummcdougall/eindex.git" }

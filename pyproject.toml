@@ -1,0 +1,22 @@
+[project]
+name = "november"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "circuitsvis",
+    "eindex-callum",
+    "einops>=0.8.0",
+    "ipympl>=0.9.4",
+    "jaxtyping>=0.2.34",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.9.2",
+    "plotly>=5.24.1",
+    "scipy>=1.14.1",
+    "transformer-lens",
+]
+
+[tool.uv.sources]
+eindex-callum = { git = "https://github.com/callummcdougall/eindex.git" }
+circuitsvis = { git = "https://github.com/callummcdougall/CircuitsVis.git", subdirectory = "python" }
